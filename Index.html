@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Configura o site para ser responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página que aparece na aba do navegador -->
+    <title>Website Básico</title>
+    <!-- Link para o arquivo CSS externo para estilizar o site -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegação no topo do site -->
+    <nav>
+        <!-- Lista de links para navegação -->
+        <ul>
+            <li><a href="#home">Home</a></li> <!-- Link para a seção Home -->
+            <li><a href="#about">About</a></li> <!-- Link para a seção About -->
+            <li><a href="#contact">Contact</a></li> <!-- Link para a seção Contact -->
+        </ul>
+    </nav>
+
+    <!-- Seção principal do site -->
+    <main>
+        <!-- Seção Home -->
+        <section id="home">
+            <h1>Welcome to My Website</h1> <!-- Título principal -->
+            <p>This is the home section. Add your content here.</p> <!-- Texto descritivo -->
+            <button onclick="alert('Button clicked!')">Click Me</button> <!-- Botão com ação de alerta -->
+        </section>
+
+        <!-- Seção About -->
+        <section id="about">
+            <h2>About Us</h2> <!-- Título da seção -->
+            <p>Write something about yourself or your website here.</p> <!-- Texto descritivo -->
+            <img src="placeholder.jpg" alt="Placeholder Image" width="300"> <!-- Imagem de exemplo -->
+        </section>
+
+        <!-- Seção Contact -->
+        <section id="contact">
+            <h2>Contact Us</h2> <!-- Título da seção -->
+            <p>Provide your contact details here.</p> <!-- Texto descritivo -->
+            <form>
+                <!-- Campo para o nome -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <!-- Campo para o e-mail -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <!-- Botão para enviar o formulário -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer>
+        <p>&copy; 2025 Your Website. All rights reserved.</p> <!-- Texto de copyright -->
+    </footer>
+
+    <!-- Link para o arquivo JavaScript externo para adicionar interatividade -->
+    <script src="script.js"></script>
+</body>
+</html>
